@@ -1,0 +1,183 @@
+libcmml
+------------------------------------------
+libcmml is a library that provides a complete programming interface
+including functions, data structures, and sloppy or strict error
+handling to parse a XML file in CMML.
+
+Runtime requirements:
+  cygwin-1.5.20-1 (>=20060604)
+  expat-1.95.8-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.20-1 (>=20060604)
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.2.1-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.22-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://annodex.net/software/libcmml/
+
+Canonical download:
+  http://annodex.net/software/libcmml/download/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libcmml-0.9.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libcmml-0.9.1-X.cygport all
+
+This will create:
+  /usr/src/libcmml-0.9.1-X-src.tar.bz2
+  /usr/src/libcmml-0.9.1-X.tar.bz2
+  /usr/src/libcmml-devel-0.9.1-X.tar.bz2
+  /usr/src/libcmml-doc-0.9.1-X.tar.bz2
+  /usr/src/libcmml0-0.9.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libcmml)
+  /usr/bin/cmml-fix.exe
+  /usr/bin/cmml-fortune.exe
+  /usr/bin/cmml-timeshift.exe
+  /usr/bin/cmml-validate.exe
+  /usr/share/doc/Cygwin/libcmml-0.9.1.README
+  /usr/share/doc/libcmml-0.9.1/AUTHORS
+  /usr/share/doc/libcmml-0.9.1/COPYING
+  /usr/share/doc/libcmml-0.9.1/ChangeLog
+  /usr/share/doc/libcmml-0.9.1/INSTALL
+  /usr/share/doc/libcmml-0.9.1/README
+  /usr/share/doc/libcmml-0.9.1/TODO
+  /usr/share/man/man1/cmml-fix.1.gz
+  /usr/share/man/man1/cmml-timeshift.1.gz
+  /usr/share/man/man1/cmml-validate.1.gz
+  /usr/share/man/man6/cmml-fortune.6.gz
+
+(libcmml0)
+  /usr/bin/cygcmml-0.dll
+
+(libcmml-devel)
+  /usr/include/cmml.h
+  /usr/lib/libcmml.dll.a
+  /usr/lib/libcmml.la
+  /usr/lib/pkgconfig/cmml.pc
+
+(libcmml-doc)
+  /usr/share/doc/libcmml-0.9.1/html/annotated.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-fix_8c.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-fortune_8c.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-parse_8c-example.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-seek-clip_8c-example.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-seek-offset_8c-example.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-seek-utc_8c-example.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-timeshift_8c.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-uri-file_8c-example.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-validate_8c-example.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-validate_8c.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml-write_8c-example.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml_8dtd-example.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml_8h-source.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml_8h.html
+  /usr/share/doc/libcmml-0.9.1/html/cmml__dox_8h-source.html
+  /usr/share/doc/libcmml-0.9.1/html/doxygen.css
+  /usr/share/doc/libcmml-0.9.1/html/doxygen.png
+  /usr/share/doc/libcmml-0.9.1/html/examples.html
+  /usr/share/doc/libcmml-0.9.1/html/files.html
+  /usr/share/doc/libcmml-0.9.1/html/functions.html
+  /usr/share/doc/libcmml-0.9.1/html/functions_vars.html
+  /usr/share/doc/libcmml-0.9.1/html/globals.html
+  /usr/share/doc/libcmml-0.9.1/html/globals_defs.html
+  /usr/share/doc/libcmml-0.9.1/html/globals_enum.html
+  /usr/share/doc/libcmml-0.9.1/html/globals_eval.html
+  /usr/share/doc/libcmml-0.9.1/html/globals_func.html
+  /usr/share/doc/libcmml-0.9.1/html/globals_type.html
+  /usr/share/doc/libcmml-0.9.1/html/globals_vars.html
+  /usr/share/doc/libcmml-0.9.1/html/group__i18n.html
+  /usr/share/doc/libcmml-0.9.1/html/group__intro.html
+  /usr/share/doc/libcmml-0.9.1/html/group__multicliptrack.html
+  /usr/share/doc/libcmml-0.9.1/html/group__multitracks.html
+  /usr/share/doc/libcmml-0.9.1/html/group__time.html
+  /usr/share/doc/libcmml-0.9.1/html/hierarchy.html
+  /usr/share/doc/libcmml-0.9.1/html/index.html
+  /usr/share/doc/libcmml-0.9.1/html/modules.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__Clip.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__Element.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__Error.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__Head.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__ImportElement.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__LinkElement.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__MetaElement.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__ParamElement.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__Preamble.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__Stream.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__Time.html
+  /usr/share/doc/libcmml-0.9.1/html/structCMML__UTC.html
+  /usr/share/doc/libcmml-0.9.1/html/struct__CMML__List.html
+  /usr/share/doc/libcmml-0.9.1/html/tab_b.gif
+  /usr/share/doc/libcmml-0.9.1/html/tab_l.gif
+  /usr/share/doc/libcmml-0.9.1/html/tab_r.gif
+  /usr/share/doc/libcmml-0.9.1/html/tabs.css
+  /usr/share/doc/libcmml-0.9.1/latex/Helvetica.ttf
+  /usr/share/doc/libcmml-0.9.1/latex/Makefile
+  /usr/share/doc/libcmml-0.9.1/latex/annotated.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-fix_8c.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-fortune_8c.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-parse_8c-example.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-seek-clip_8c-example.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-seek-offset_8c-example.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-seek-utc_8c-example.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-timeshift_8c.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-uri-file_8c-example.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-validate_8c-example.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-validate_8c.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml-write_8c-example.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml_8dtd-example.tex
+  /usr/share/doc/libcmml-0.9.1/latex/cmml_8h.tex
+  /usr/share/doc/libcmml-0.9.1/latex/doxygen.sty
+  /usr/share/doc/libcmml-0.9.1/latex/examples.tex
+  /usr/share/doc/libcmml-0.9.1/latex/files.tex
+  /usr/share/doc/libcmml-0.9.1/latex/group__i18n.tex
+  /usr/share/doc/libcmml-0.9.1/latex/group__intro.tex
+  /usr/share/doc/libcmml-0.9.1/latex/group__multicliptrack.tex
+  /usr/share/doc/libcmml-0.9.1/latex/group__multitracks.tex
+  /usr/share/doc/libcmml-0.9.1/latex/group__time.tex
+  /usr/share/doc/libcmml-0.9.1/latex/hierarchy.tex
+  /usr/share/doc/libcmml-0.9.1/latex/index.tex
+  /usr/share/doc/libcmml-0.9.1/latex/modules.tex
+  /usr/share/doc/libcmml-0.9.1/latex/refman.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__Clip.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__Element.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__Error.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__Head.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__ImportElement.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__LinkElement.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__MetaElement.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__ParamElement.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__Preamble.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__Stream.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__Time.tex
+  /usr/share/doc/libcmml-0.9.1/latex/structCMML__UTC.tex
+  /usr/share/doc/libcmml-0.9.1/latex/struct__CMML__List.tex
+
+------------------
+
+Port Notes:
+
+----- version 0.9.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

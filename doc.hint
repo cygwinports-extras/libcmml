@@ -1,0 +1,6 @@
+category: Utils Doc
+external-source: libcmml
+sdesc: "CMML parser library (documentation)"
+ldesc: "libcmml is a library that provides a complete programming
+interface including functions, data structures, and sloppy or strict
+error handling to parse a XML file in CMML."
