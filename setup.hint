@@ -1,5 +1,5 @@
 category: Utils
-requires: cygwin libcmml0
+requires: libcmml0
 sdesc: "CMML parser library (utilities)"
 ldesc: "libcmml is a library that provides a complete programming
 interface including functions, data structures, and sloppy or strict

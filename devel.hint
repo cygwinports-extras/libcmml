@@ -1,5 +1,5 @@
 category: Utils Libs
-requires: cygwin expat
+requires: expat
 external-source: libcmml
 sdesc: "CMML parser library (development)"
 ldesc: "libcmml is a library that provides a complete programming
